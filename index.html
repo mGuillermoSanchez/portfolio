@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Mon Portfolio</title>
+</head>
+<body>
+
+    <div class="ecran">
+        <div id="portfolio" data-tilt>
+            <h1 style="text-shadow: 0 0 3px #fff;">Maxime GUILLERMO</h1>
+            <div id="social-icons">
+                <a href="https://github.com/mGuillermoSanchez" target="_blank"><img src="src/icons8-github-50.png" alt=""></a>
+                <a href="https://www.malt.fr/profile/maximeguillermosanchez?overview" target="_blank"><img src="src/malt-removebg-preview.png" alt=""></a>
+                <a href="https://fr.fiverr.com/maximeguillermo?public_mode=true" target="_blank"><img src="src/icons8-fiverr-48.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/maxime-guillermo-sanchez-660544296/" target="_blank"><img src="src/icons8-linkedin-48.png" alt=""></a>
+            </div>
+
+            <div class="ligne"></div>
+            <style>
+                .ligne {
+                    width: 100%;
+                    height: 2px;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    animation-name: ligneAnim;
+                    animation-duration: 1.5s;
+                }
+
+                @keyframes ligneAnim {
+                    0% {width:0px;}
+                    100% {width:100%;}
+                }
+            </style>
+
+            <a id="contact-button" href="mailto:maximeguisan@gmail.com">Me Contacter par Email</a>
+        
+            <div id="portfolio-content">
+                <h2>À Propos de Moi</h2>
+                <p style="font-size: 14px;">Je suis un passionné de développement web avec une expérience de plus de 4 ans. Mon objectif est de créer une activité parallèle à mes études en cybersécurité.</p>
+
+                <h2>Éducation</h2>
+                <p><strong>BTS SIO</strong> - Systèmes informatiques aux organisations, option SLAM</p>
+        
+            </div>
+        </div>
+    </div>
+    
+    <script src="vanilla-tilt.js"></script>
+</body>
+</html>
